@@ -19,7 +19,3 @@ def positional_encoding(seq_len, d_model, base=10000.0):
     PE[:, 1::2] = np.cos(angles[:, :PE[:, 1::2].shape[1]])
 
     return PE
-    
-    
-
-    
